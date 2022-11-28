@@ -1,23 +1,19 @@
 {
-  "name": "aaaa",
+  "name": "buildflare",
   "version": "1.0.0",
-  "description": "A JavaScript project",
-  "main": "./dist/index.js",
+  "description": "",
+  "main": "build.js",
   "scripts": {
-    "dev:watch-backend": "node ./node_modules/parcel-bundler/bin/cli watch ./src/index.js --target node --out-dir ./dist/",
-    "dev:watch-frontend": "node ./node_modules/parcel-bundler/bin/cli watch ./src/public/index.html --out-dir ./dist/public/",
-    "dev:hot-reload": "node ./node_modules/nodemon/bin/nodemon --watch ./dist/ ./dist/index.js",
-    "start": "node ./build.js",
-    "build": "node ./build.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "decompress": "^4.2.1"
+    "axios": "^1.2.0",
+    "decompress": "^4.2.1",
+    "fs": "^0.0.1-security",
+    "jszip": "^3.10.1",
+    "jszip-utils": "^0.1.0",
+    "superagent": "^8.0.4"
   }
 }
